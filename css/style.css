@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    font-family: Verdana, sans-serif;
+    color: dodgerblue;
+}
+
+h1{
+    border-bottom: solid 0.5em;
+    font-family: 'Courier New';
+    background-color: black;
+    font-size: 3em;
+    height: 8em;
+}
+ ul{
+    list-style: none;
+    background-color: white;
+
+ }
+
+ul>li{
+    width: 350px;
+    height: 400px;
+    margin: 0.5em;
+    border-radius: 8px;
+    border-color: black;
+    border-style: groove;
+}
+
+.notlogo{
+    height: 262px;
+    width: 350px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.xml>h2>a{
+    color: #F69E30;
+}
+
+.json>h2>a{
+    color: #9777AB;
+}
+
+.svg>h2>a{
+    color: #5153FF;
+}
+
+a:hover{
+    color: white;
+}
+
+.bottom{
+    width: 100%;
+    background-color: black;
+    margin-top: solid 0.5em;
+    height: 3em;
+}
+
+.name{
+    word-spacing: 0.1em;
+    font-weight: bold;
+}
