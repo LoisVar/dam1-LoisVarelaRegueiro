@@ -1,0 +1,5 @@
+O XML ocupa 4096 bytes no disco mentres que o json ocupa 0. É un aforro do 100%.
+
+1. urn:trial:examA
+É esa opción porque a etiqueta está no alcance de examA e ademáis é <name> e non <depth:name> que sería o axeitado para que pertencese ao namespace examB.
+

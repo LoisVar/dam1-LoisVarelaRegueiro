@@ -1,0 +1,11 @@
+<!-- na etiqueta film orixinalmente estaba escrito "Film" na apertura e "film" no cerre. Ademáis a sintaxe do atributo runtime era incorrecta.-->
+<film runtime='1h34m'>
+    <title>Pirates of Silicon Valley</title>
+    <director>Martyn Burke</director>
+    <!--a estructura da seguinte etiqueta non tiña sentido, hai diferentes maneiras de correxilo pero decanteime pola máis sinxela e apropiada na miña opinión para este caso.-->
+    <original-language>English</original-language>
+    <!--O seguinte erro era múltiple, no orixinal usaba varios caracteres prohibidos, debería sustituilos polos codigos unicode correspondentes, pero como tamén usa estrutura html é máis doado usar CDATA coma fixen eu.-->
+    <description>
+        <![CDATA[ Based upon the friendship and eventual breakdown between <strong>Bill Gates</strong> and <strong>Steve Jobs</strong> in the very early startup days of Microsoft and Apple from their home garages. This film does a great job of showing it's about being the first to have an idea, it's about who's first to act on it properly and with passion, exemplified by their "theft" of the first GUI system from Xerox.]]>
+    </description>
+</film>
